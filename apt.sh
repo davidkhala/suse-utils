@@ -1,8 +1,13 @@
-update(){
-  sudo zypper refresh
+update() {
+  zypper refresh
 }
-upgrade(){
-  sudo zypper update
+upgrade() {
+  zypper update
+}
+install() {
+  zypper install $@
+}
+remove() {
+  zypper remove $@
 }
 $@
-
