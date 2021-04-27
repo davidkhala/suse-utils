@@ -9,7 +9,7 @@ install8() {
 }
 install5(){
     cd /etc/zypp/repos.d/
-    wget https://download.opensuse.org/repositories/devel:/gcc/SLE-12/devel:gcc.repo
+    sudo wget https://download.opensuse.org/repositories/devel:/gcc/SLE-12/devel:gcc.repo
     cd -
     sudo rpm -Uvh ./mysql80-community-release-sles12-3.noarch.rpm
     sudo rpm --import /etc/RPM-GPG-KEY-mysql
