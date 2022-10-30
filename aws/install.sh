@@ -1,5 +1,5 @@
-ssh-agent(){
-  sudo zypper install amazon-ssm-agent
+ssh-agent() {
+  sudo zypper install -y amazon-ssm-agent
   sudo systemctl --now enable amazon-ssm-agent
 
 }
