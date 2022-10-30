@@ -10,4 +10,7 @@ install() {
 remove() {
   zypper remove $@
 }
+validate-repos(){
+  sudo zypper -vvv ref -f
+}
 $@
