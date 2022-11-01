@@ -6,7 +6,7 @@ SLES and OpenSUSE are two very different species.
     - SUSE subscription is strictly linked to the Organization
 
 
-## [How to add repository](https://www.suse.com/support/kb/doc/?id=000018789)
+## [How to add repository](https://www.suse.com/support/kb/doc/?id=000018261)
 
 
 
